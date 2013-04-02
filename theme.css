@@ -1,0 +1,128 @@
+body {
+  font-family: "coronette", courier;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background: #CCCCC1;
+}
+
+.calculator {
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.calculator .header {
+  border-bottom: solid 1px #FFFFFF;
+  background: #666666;
+  overflow: hidden;
+}
+
+.calculator .header .display {
+  color: #CCCCCC;
+  font-size: 100px;
+  line-height: 100px;
+  text-align: right;
+  padding: 20px;
+  text-shadow: 0 -1px 0 #000000;
+}
+
+.calculator .keyboard {
+  overflow: hidden;
+  padding: 20px;
+  width: 390px;
+  margin: 0 auto;
+}
+
+.calculator .numbers {
+  overflow: hidden;
+  width: 330px;
+  float: left;
+}
+
+.calculator .operators {
+  overflow: hidden;
+  width: 60px;
+  float: left;
+}
+
+.numbers .button {
+	position: relative;
+	border: none;
+	display: block;
+	float: left;
+	margin: 0 10px 10px 0;
+	box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.2),
+			    inset 0px -5px 0px 0px rgba(0,0,0,0.3),
+				inset 0px 2px 0px 0px rgba(255,255,255,0.5);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	overflow: hidden;
+	cursor: pointer;
+	font-size: 72px;
+}
+
+.operators .button {
+	position: relative;
+	border: none;
+	display: block;
+	float: left;
+	margin: 0 0 10px 0;
+	box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.2),
+			    inset 0px -5px 0px 0px rgba(0,0,0,0.3),
+				inset 0px 2px 0px 0px rgba(255,255,255,0.5);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	overflow: hidden;
+	cursor: pointer;
+	font-size: 48px;
+}
+
+.numbers .button:active {
+	box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.2),
+			    inset 0px -2px 0px 0px rgba(0,0,0,0.3),
+				inset 0px 2px 0px 0px rgba(255,255,255,0.5);
+	top: 3px;
+	margin-bottom: 13px;
+}
+
+.operators .button:active {
+	box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.2),
+			    inset 0px -2px 0px 0px rgba(0,0,0,0.3),
+				inset 0px 2px 0px 0px rgba(255,255,255,0.5);
+	top: 3px;
+	margin-bottom: 13px;
+}
+
+.numbers .button div {
+	padding: 10px 20px 12px 20px;
+	width: 60px;
+	height: 78px;
+	color: rgba(0,0,0,0.7);
+	text-shadow: 1px 1px 0px rgba(255,255,255,0.4);
+}
+
+.operators .button div {
+	padding: 10px 20px 12px 20px;
+	width: 20px;
+	height: 56px;
+	color: rgba(0,0,0,0.7);
+	text-shadow: 1px 1px 0px rgba(255,255,255,0.4);
+}
+
+.numbers .button:active div {
+	padding-bottom: 9px;
+}
+
+.operators .button:active div {
+	padding-bottom: 9px;
+}
+
+.wood {
+
+}
+
+.wood.selected  {
+
+}

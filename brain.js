@@ -62,7 +62,6 @@ $(document).ready(function() {
     
     else if (!operationInCourse) {
       if (decimal == true) {
-        alert("ya hay decimales");
       }
     
       else {
@@ -95,7 +94,7 @@ $(document).ready(function() {
   
   numberButton.click(function() {
     
-    operatorButton.removeClass("selected");
+    operatorButton.parent(".button").removeClass("selected");
     figure = $(this).attr("id");
     
     if (operationInCourse) {
@@ -135,8 +134,8 @@ $(document).ready(function() {
   
   operatorButton.click(function() {
     
-    operatorButton.removeClass("selected");
-    $(this).addClass("selected");
+    operatorButton.parent(".button").removeClass("selected");
+    $(this).parent(".button").addClass("selected");
     
     if (value1 != null && value2 != null) {
       switch(operationType) {
@@ -169,7 +168,7 @@ $(document).ready(function() {
   
   equalButton.click(function() {
     
-    operatorButton.removeClass("selected");
+    operatorButton.parent(".button").removeClass("selected");
     
     if (value1 != null && value2 != null) {
       switch(operationType) {

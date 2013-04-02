@@ -3,7 +3,7 @@
   <head>
     <title>Calculator</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" media="screen" href="calculator.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="theme.css" />
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script type="text/javascript" src="/localcdn/jquery.js"></script>
     <script type="text/javascript" src="//use.typekit.net/cve0fiu.js"></script>
@@ -12,28 +12,64 @@
   </head>
   <body>
     <div class="calculator">
-      <div id="display" class="display">0</div><!-- end display -->
+      <div class="header">
+        <div id="display" class="display">0</div><!-- end display -->  
+      </div><!-- end compact -->
       <div class="keyboard">
         <div class="numbers">
-          <span class="button" id="7">7</span>
-          <span class="button" id="8">8</span>
-          <span class="button" id="9">9</span>
-          <span class="button" id="4">4</span>
-          <span class="button" id="5">5</span>
-          <span class="button" id="6">6</span>
-          <span class="button" id="1">1</span>
-          <span class="button" id="2">2</span>
-          <span class="button" id="3">3</span>
-          <span class="button" id="0">0</span>
-          <span class="button" id="decimal">.</span>
-          <span class="button" id="clear">c</span>
+          <div class="button wood">
+            <div id="7">7</div>
+          </div>
+          <div class="button wood">
+            <div id="8">8</div>
+          </div>
+          <div class="button wood">
+            <div id="9">9</div>
+          </div>
+          <div class="button wood">
+            <div id="4">4</div>
+          </div>
+          <div class="button wood">
+            <div id="5">5</div>
+          </div>
+          <div class="button wood">
+            <div id="6">6</div>
+          </div>
+          <div class="button wood">
+            <div id="1">1</div>
+          </div>
+          <div class="button wood">
+            <div id="2">2</div>
+          </div>
+          <div class="button wood">
+            <div id="3">3</div>
+          </div>
+          <div class="button wood">
+            <div id="0">0</div>
+          </div>
+          <div class="button wood">
+            <div id="decimal">.</div>    
+          </div>
+          <div class="button wood">
+            <div id="clear">c</div>
+          </div>
         </div><!-- end numbers -->
         <div class="operators">
-          <span class="button" id="division">/</span>
-          <span class="button" id="multiplication">*</span>
-          <span class="button" id="subtraction">-</span>
-          <span class="button" id="addition">+</span>
-          <span class="button" id="equal">=</span>
+          <div class="button wood">
+            <div id="division">/</div>
+          </div>
+          <div class="button wood">
+            <div id="multiplication">*</div>
+          </div>
+          <div class="button wood">
+            <div id="subtraction">-</div>
+          </div>
+          <div class="button wood">
+            <div id="addition">+</div>
+          </div>
+          <div class="button wood">
+            <div id="equal">=</div>
+          </div>
         </div><!-- end operators -->
       </div><!-- end keyboard -->
     </div><!-- end calculator -->
